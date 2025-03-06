@@ -1,0 +1,75 @@
+theme = "mytheme"
+
+[editor]
+line-number = "relative"
+cursorline = true
+mouse = true
+bufferline = "always"
+end-of-line-diagnostics = "hint"
+auto-completion = true
+completion-replace = true
+preview-completion-insert = false
+path-completion = true
+completion-timeout = 1000
+auto-format = true
+auto-info = true
+
+[editor.file-picker]
+git-ignore = false
+ignore = false
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.cursor-shape]
+insert = "underline"
+normal = "block"
+select = "bar"
+
+[editor.statusline]
+left = ["mode", "total-line-numbers", "position", "version-control"]
+center = ["primary-selection-length", "read-only-indicator", "file-name", "file-modification-indicator"]
+right = ["spinner", "diagnostics", "workspace-diagnostics", "register", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+
+[editor.auto-save]
+focus-lost = true
+
+[editor.lsp]
+display-progress-messages = true
+auto-signature-help = true
+display-inlay-hints = false
+display-signature-help-docs = true
+snippets = true
+goto-reference-include-declaration = true
+
+[editor.indent-guides]
+render = true
+skip-levels = 1
+
+[editor.gutters]
+layout = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+
+[keys.normal]
+tab = "move_parent_node_end"
+S-tab = "move_parent_node_start"
+C-s = ":w"
+
+[keys.insert]
+S-tab = "move_parent_node_start"
+C-j = "normal_mode"
+
+[keys.select]
+tab = "extend_parent_node_end"
+S-tab = "extend_parent_node_start"
