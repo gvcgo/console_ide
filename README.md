@@ -23,12 +23,12 @@
 
 ## Window Controller(Dropdown effect)
 
-- xdotool
+- xdotool(for linux)
   - [script](https://github.com/moqsien/console_ide/blob/main/xdotool_script.sh)
   1. chmod +x xdotool_script.sh.
   2. Add your **Shortcut Key** for xdotool_script.sh.
 
-- hammerspoon
+- hammerspoon(for macos)
   - [docs](https://www.hammerspoon.org/docs/hs.application.html#launchOrFocus)
   - [script](https://github.com/moqsien/console_ide/blob/main/hammerspoon_init.lua)
   1. Copy hammerspoon_init.lua to ~/.hammerspoon/init.lua.
