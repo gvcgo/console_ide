@@ -32,3 +32,7 @@
   - [docs](https://www.hammerspoon.org/docs/hs.application.html#launchOrFocus)
   - [script](https://github.com/moqsien/console_ide/blob/main/hammerspoon_init.lua)
   1. Copy hammerspoon_init.lua to ~/.hammerspoon/init.lua.
+
+## Gallery
+
+![img](https://github.com/moqsien/console_ide/blob/main/images/screen_shot.png)
