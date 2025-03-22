@@ -21,6 +21,16 @@
   - [config](https://github.com/moqsien/console_ide/blob/main/alacritty.toml)
   1. Copy alacritty.toml to ~/.config/alacritty/alacritty.toml.
 
+- [Kitty](https://github.com/kovidgoyal/kitty)
+  - [docs](https://sw.kovidgoyal.net/kitty/)
+  - [config](https://github.com/gvcgo/console_ide/blob/main/kitty.conf)
+  1. Copy kitty.conf to ~/.config/kitty/kitty.conf.
+
+## Zsh plugin manager
+- [zinit](https://github.com/zdharma-continuum/zinit)
+  - [config](https://github.com/gvcgo/console_ide/blob/main/zinit.sh)
+  1. Add content fo zinit.sh to ~/.zshrc.
+
 ## Window Controller(Dropdown effect)
 
 - xdotool(for linux)
